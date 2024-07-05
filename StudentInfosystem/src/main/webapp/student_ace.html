@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student profile</title>
+  
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px;
+  color:blue;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+a:hover{
+    color:black;
+}
+.container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+        .container:hover{
+           transform:scale(1.1);
+ }
+  button 
+{ 
+       font-size:15px;
+       background-color:gray;    
+        color:white ;   
+        padding: 10px;   
+        border: none;   
+        cursor: pointer; 
+       border-width:large; 
+       border-radius:10px;
+        
+ }  
+ input{
+ padding:5px;
+ border: 2px solid grey;
+ width: 75%;
+ border-radius:2px;
+ }
+ button:hover{
+ background-color:black;
+ }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>STUDENT ACADEMIC PROFILE</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="page.html" class="active">Home</a></li>
+      <li><a href="student_pro.html">Student Profile</a></li>
+      <li><a href="student_ace.html">Student Academic</a></li>
+      <li><a href="update_pro.html">Update Profile</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+
+      
+    </ul>
+  </nav>
+  <br>
+  <br>
+  <form action="Acadamicinfo" method="post">
+  <div class="container">
+  <i>Get Student Academic Information.....</i>
+  <H5>ENTER YOUR JNTU NO:</H5>
+  <input type="text" name="jntuno" ><br><br>
+  <button value="Acadamicinfo">...CLICK HERE....</button>
+  </div>
+  </form>
+  <div id="details">
+  
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,115 @@
+<html>
+<head>
+  <title>LOGIN PAGE</title>
+<style>
+div.imgcontainer
+{
+  
+  border-style:double;
+  border-radius:30px;
+  padding:60px;
+  width:400px;
+  height:600px;
+  border-color:white;
+  background-color:white;
+  margin-top:6px;
+  margin-left:500px;
+  margin-right:500px;
+} 
+
+input
+{
+    width:100%;
+    border-color:blue;
+    border-radius:5px;
+    padding:10px;
+}
+button 
+{ 
+       font-size:15px;
+       background-color:black;   
+       width: 25%;  
+        color:white ;   
+        padding: 15px;   
+        border: none;   
+        cursor: pointer; 
+       border-width:large; 
+        
+ }  
+ body
+{
+  background-color: grey;
+}
+h1
+{
+ 
+ color:black;
+}
+p
+{
+   margin-left:5px;
+}
+.btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+.btn:hover{
+            
+  background-color:red;
+        }
+        .pwd:hover{
+        color:red;
+        
+        
+        }
+        .log:hover{
+        background-color:grey;
+        text-decoration:none;
+        }
+</style>
+</head>
+    <body bgcolor="#f1f1f1">
+        <div class="form">
+        <form  action="Login" method="post" >
+           
+            <div class="imgcontainer">
+            <b><h1><center>LOGIN FORM</center></h1></b>
+            <hr>
+            <br>
+            <center><img src="login.png" alt="Avatar" class="avatar" width="300" heigth="300"></center>
+             <br>
+             <br>
+            
+            <b><label for="userid" style="margin-left:3px">JNTU NO: </label></b>
+           <input type="text" name="username" placeholder="JNTU NO" maxlength="20">
+           <span id="username" class="text-danger font-weight-bold"></span>
+            <br>
+            <br>
+            <b><label for="PASSWORD" style="margin-left:3px" >PASSWORD: </label></b>
+            <input type="password" name="password" placeholder="password"  >
+            <span id="password" class="text-danger font-weight-bold"></span>
+            <br>
+            <br>
+             <nav>
+            <center>
+            <nav>
+            <button value="Login" class="log">LOGIN</button>
+            
+            
+              <button ><a href="page.html" style="color:white" class="log">CANCEL</a></button>  </center></nav>
+             
+             </nav>
+            
+
+        </form>
+        <CENTER><span>FORGET<a href="password.html" class="pwd">password?</a></span></CENTER>
+         </div>
+         </div>
+         </center>
+        
+    </body>
+</html>

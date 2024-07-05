@@ -1,0 +1,165 @@
+<html>
+<head>
+<style>
+div
+{
+ 
+  border-style:solid;
+  border-radius: 15px;
+  border-width:10px;
+  border-color: gray;
+  background-color: #f2f2f2;
+  padding-left: 50px;
+  padding-right:50px;
+  margin-left:400px;
+  margin-right:400px;
+  font-size:20px;
+ }
+button 
+
+{ 
+       font-size:20px;
+       background-color:gray ;   
+       width: 50%;  
+        color:white ;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer; 
+      
+        
+}  
+ input[type="text"]
+ {   
+        width: 75%;  
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box; 
+       
+   }   
+   input[type="password"]
+ {   
+        width: 75%;  
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box; 
+       
+   }   
+   input[type="number"]
+ {   
+        width: 75%;  
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box; 
+       
+   }   
+h1
+{
+color:black;
+}
+body
+{
+  background-color: grey;
+
+}
+.btn:hover{
+            
+            background-color:#555;
+                  }
+</style>
+</head>
+<body>
+<div>
+<br>
+<br>
+<H1><center>REGISTRATION FORM </center></h1>
+    <hr>
+<form method="post" action="register"  >
+<h3>Student Personal Information</h3>
+<label for="FIRSTNAME">Full Name: </label><br>
+<input type="text" name="name" placeholder="Fullname" size="15" id="name">
+<br>
+<label for="FatherNAME">Father Name: </label><br>
+<input type="text" name="fname" placeholder="Father name" >
+<br>
+<label for="college">Mother Name: </label><br>
+<input type="text" name="mname" placeholder="Mother name" >
+<br>
+<label for="address">Address: </label><br>
+<input type="text" name="address" placeholder="Address" >
+<br>
+<label for="phoneno">Phone no: </label><br>
+<input type="text" name="phone" placeholder="Phone No" >
+<br>
+<label for="Email id">Email No: </label><br>
+<input type="text" name="email" placeholder="Email No" >
+<br>
+<label for="gender" >GENDER</label><br>
+<input type="radio" name="gender" value="male">
+<label for="gender">MALE</label>
+<input type="radio" name="gender" value="female">
+<label for="gender">FEMALE</label>
+<br><br>
+<label for="dateofbirth">DATE OF BIRTH: </label><br>
+<input type="date" name="dateofbirth" placeholder="dd-mm-yyyy">
+<br> 
+<br>
+<h3>Student Academic Information </h3>
+<label for="jntuno">JNTU No: </label><br>
+<input type="text" name="jntuno" placeholder="jntuno" >
+<br>
+<label for="password">Password: </label><br>
+<input type="password" name="password" placeholder="password" >
+<br>
+<label for="college">College Name: </label><br>
+<input type="text" name="college" placeholder="College Name" >
+<br>
+<label for="BRANCH">BRANCH</label><BR>
+<select  name="branch">
+<option value="0">Select</option>
+<option value="CSE">CSE</option>
+<option value="IT">IT</option>
+<option value="ECE">ECE</option>
+<option value="EEE">EEE</option>
+<option value="MECH">MECH</option>
+<option value="CIVIL">CIVIL</option>
+</select><br><br>
+<label for="year">Year</label><BR>
+    <select  name="year">
+    <option>Select</option>
+    <option value="1" >1</option>
+    <option value="2" >2</option>
+    <option value="3" >3</option>
+    <option value="4" >4</option>
+    </select><br>
+           <br>
+<label for="semseter">Select your Semseter:</label><BR>
+    <select  name="semester">
+    <option>Select</option>
+    <option value="sem1">sem 1</option>
+    <option value="sem2">sem 2</option>
+    <option value="sem3">sem 3</option>
+    <option value="sem4">sem 4</option>
+    <option value="sem5">sem 5</option>
+    <option value="sem6">sem 6</option>
+    <option value="sem7">sem 7</option>
+    <option value="sem8">sem 8</option>
+    </select><br><br>
+    <label for="cgpa">Enter your CGPA: </label><br>
+    <input type="text" name="cgpa" placeholder="CGPA" >
+    <br>
+<button type="submit" value="register" class="btn">Register</button> 
+</form> 
+
+
+</div>
+</body>
+</html>
+</body>
+</html>
